@@ -52,4 +52,6 @@ targets:
         ENABLE_BITCODE: "NO"
         SWIFT_OPTIMIZATION_LEVEL: "-O"
         DEBUG_INFORMATION_FORMAT: dwarf
+        OTHER_SWIFT_FLAGS: "-Xfrontend -solver-expression-time-threshold=40 -Xfrontend -warn-long-expression-type-checking=400 -Xfrontend -warn-long-function-bodies=800"
+        SWIFT_COMPILATION_MODE: wholemodule
     scheme: {}

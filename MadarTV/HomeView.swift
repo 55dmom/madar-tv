@@ -105,6 +105,14 @@ struct HomeView: View {
     @EnvironmentObject var playlists: PlaylistStore
     @EnvironmentObject var favorites: FavoritesStore
 
+    func byGenres(_ gs: [String]) -> [MediaItem] {
+        let set = Set(gs)
+        return catalog.movies.filter { item in
+            guard let g = item.genre else { return false }
+            return set.contains(g)
+        }
+    }
+
     var body: some View {
         NavigationView {
             ScrollView {
@@ -114,12 +122,16 @@ struct HomeView: View {
                     if !favorites.items.isEmpty { MediaRow(title: "قائمتي", items: favorites.items) }
                     MediaRow(title: "أفلام Blender المفتوحة", items: catalog.openMovies, subtitle: "HD")
                     MediaRow(title: "كلاسيكيات السينما", items: Array(catalog.movies.prefix(15)))
-                    MediaRow(title: "مسلسلات", items: catalog.series)
-                    MediaRow(title: "كرتون كلاسيكي", items: catalog.cartoons)
-                    ChannelRow(title: "قنوات عربية مباشرة", channels: playlists.arabic)
-                    MediaRow(title: "رعب وغموض", items: catalog.movies.filter { ["رعب", "غموض", "تشويق"].contains($0.genre ?? "") })
-                    MediaRow(title: "كوميديا", items: catalog.movies.filter { $0.genre == "كوميدي" })
-                    MediaRow(title: "مغامرة وخيال علمي", items: catalog.movies.filter { ["مغامرة", "خيال علمي"].contains($0.genre ?? "") })
+                    Group {
+                        MediaRow(title: "مسلسلات", items: catalog.series)
+                        MediaRow(title: "كرتون كلاسيكي", items: catalog.cartoons)
+                        ChannelRow(title: "قنوات عربية مباشرة", channels: playlists.arabic)
+                    }
+                    Group {
+                        MediaRow(title: "رعب وغموض", items: byGenres(["رعب", "غموض", "تشويق"]))
+                        MediaRow(title: "كوميديا", items: byGenres(["كوميدي"]))
+                        MediaRow(title: "مغامرة وخيال علمي", items: byGenres(["مغامرة", "خيال علمي"]))
+                    }
                     Text("المحتوى: أرشيف الإنترنت (ملكية عامة) • Blender Foundation (CC) • iptv-org")
                         .font(.caption2).foregroundColor(Theme.text2).padding(.horizontal).padding(.bottom, 20)
                 }

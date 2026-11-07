@@ -98,7 +98,8 @@ struct PlayerScreen: View {
         observer = item.observe(\.status, options: [.new]) { it, _ in
             DispatchQueue.main.async {
                 if it.status == .failed {
-                    status = "تعذّر تشغيل هذا البث.\n" + (it.error?.localizedDescription ?? "") + "\nقد يكون الرابط متوقفاً أو محجوباً في منطقتك."
+                    let reason: String = it.error?.localizedDescription ?? ""
+                    status = "تعذّر تشغيل هذا البث.\n\(reason)\nقد يكون الرابط متوقفاً أو محجوباً في منطقتك."
                 }
             }
         }

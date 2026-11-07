@@ -53,7 +53,8 @@ struct MediaItem: Codable, Hashable, Identifiable {
         case .openMovie:
             return "فيلم رسوم متحركة مفتوح المصدر من إنتاج مؤسسة Blender، مرخّص للمشاهدة والمشاركة بحرية."
         default:
-            return "فيلم كلاسيكي من أرشيف الإنترنت ضمن الملكية العامة. \(title)" + (year != nil ? " (\(year!))." : ".")
+            let yearText: String = year.map { " (\($0))" } ?? ""
+            return "فيلم كلاسيكي من أرشيف الإنترنت ضمن الملكية العامة. \(title)\(yearText)."
         }
     }
 }

@@ -16,7 +16,12 @@ enum Theme {
         [Color(red: 0.40, green: 0.20, blue: 0.60), Color(red: 0.08, green: 0.05, blue: 0.18)],
     ]
     static func gradient(for key: String) -> LinearGradient {
-        let stable = key.unicodeScalars.reduce(0) { ($0 &* 31 &+ Int($1.value)) & 0x7fffffff } % gradients.count
+        var h: Int = 7
+        for u in key.unicodeScalars {
+            let v: Int = Int(u.value)
+            h = (h &* 31 &+ v) & 0x7fffffff
+        }
+        let stable: Int = h % gradients.count
         return LinearGradient(colors: gradients[stable], startPoint: .topLeading, endPoint: .bottomTrailing)
     }
 }

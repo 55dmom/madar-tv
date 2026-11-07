@@ -204,14 +204,27 @@ struct SearchView: View {
     var mediaResults: [MediaItem] {
         let q = query.trimmingCharacters(in: .whitespaces).lowercased()
         guard !q.isEmpty else { return [] }
-        return catalog.all.filter { $0.title.lowercased().contains(q) || ($0.subtitle ?? "").lowercased().contains(q) || ($0.genre ?? "").contains(q) }
+        return catalog.all.filter { item in
+            if item.title.lowercased().contains(q) { return true }
+            if let s = item.subtitle, s.lowercased().contains(q) { return true }
+            if let g = item.genre, g.contains(q) { return true }
+            return false
+        }
     }
     var channelResults: [Channel] {
         let q = query.trimmingCharacters(in: .whitespaces).lowercased()
         guard !q.isEmpty else { return [] }
         let all = playlists.arabic + playlists.animation + playlists.kids + playlists.custom
         var seen = Set<String>()
-        return all.filter { ($0.name.lowercased().contains(q) || $0.group.lowercased().contains(q)) && seen.insert($0.id).inserted }
+        var out: [Channel] = []
+        for c in all {
+            let hit: Bool = c.name.lowercased().contains(q) || c.group.lowercased().contains(q)
+            if hit && !seen.contains(c.id) {
+                seen.insert(c.id)
+                out.append(c)
+            }
+        }
+        return out
     }
 
     var body: some View {

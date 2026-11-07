@@ -4,6 +4,9 @@ on:
     branches: [main]
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   ipa:
     runs-on: macos-15
@@ -17,13 +20,14 @@ jobs:
       - name: Generate project
         run: xcodegen generate
       - name: Archive (unsigned)
+        timeout-minutes: 20
         run: |
           set -o pipefail
           xcodebuild -project MadarTV.xcodeproj -scheme MadarTV -configuration Release \
             -sdk iphoneos -destination 'generic/platform=iOS' \
             -archivePath build/MadarTV.xcarchive archive \
             CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
-            2>&1 | tee build.log | grep -E "error:|warning: unre|ARCHIVE SUCCEEDED|ARCHIVE FAILED|BUILD FAILED" || true
+            2>&1 | tee build.log | grep -E "error:|warning: .*(type-check|took [0-9]+ms)|ARCHIVE SUCCEEDED|ARCHIVE FAILED|BUILD FAILED" || true
           test -d build/MadarTV.xcarchive/Products/Applications/MadarTV.app
           grep -q "ARCHIVE SUCCEEDED" build.log
       - name: Package ipa
@@ -58,6 +62,7 @@ jobs:
           UDID=$(xcrun simctl list devices available -j | python3 -c "import json,sys;d=json.load(sys.stdin)['devices'];c=[x for k,v in d.items() if 'iOS' in k for x in v if x['name'].startswith('iPhone 16 Pro') or x['name'].startswith('iPhone 15 Pro')] or [x for k,v in d.items() if 'iOS' in k for x in v if x['name'].startswith('iPhone')];print(c[-1]['udid'])")
           echo "udid=$UDID" >> $GITHUB_OUTPUT
       - name: Build for simulator
+        timeout-minutes: 20
         run: |
           set -o pipefail
           xcodebuild -project MadarTV.xcodeproj -scheme MadarTV -configuration Debug \
@@ -83,3 +88,21 @@ jobs:
         with:
           name: screenshots
           path: shots
+
+  release:
+    needs: [ipa, screenshots]
+    if: always() && needs.ipa.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: art
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ls -R art | head -40
+          TAG=build-${{ github.run_number }}
+          FILES="art/MadarTV_unsigned/MadarTV_unsigned.ipa art/build-log/build.log"
+          if [ -d art/screenshots ]; then FILES="$FILES $(ls art/screenshots/*.png | tr '\n' ' ')"; fi
+          gh release create "$TAG" $FILES --repo "${{ github.repository }}" --title "مَدار TV — build ${{ github.run_number }}" --notes "Unsigned .ipa (sign it yourself). Commit ${{ github.sha }}."
