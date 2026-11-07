@@ -1,0 +1,1111 @@
+{
+ "movies": [
+  {
+   "id": "his_girl_friday",
+   "title": "His Girl Friday",
+   "year": 1940,
+   "genre": "كوميدي",
+   "minutes": 91,
+   "stream": "https://archive.org/download/his_girl_friday/his_girl_friday.mp4",
+   "thumb": "https://archive.org/services/img/his_girl_friday",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "house_on_haunted_hill_ipod",
+   "title": "House on Haunted Hill",
+   "year": 1959,
+   "genre": "رعب",
+   "minutes": 74,
+   "stream": "https://archive.org/download/house_on_haunted_hill_ipod/house_on_haunted_hill_512kb.mp4",
+   "thumb": "https://archive.org/services/img/house_on_haunted_hill_ipod",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "JungleBook",
+   "title": "Jungle Book",
+   "year": 1942,
+   "genre": "مغامرة",
+   "minutes": 104,
+   "stream": "https://archive.org/download/JungleBook/Jungle_Book.mp4",
+   "thumb": "https://archive.org/services/img/JungleBook",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "The_Pied_Piper_of_Hamelin",
+   "title": "The Pied Piper of Hamelin",
+   "year": 1957,
+   "genre": "عائلي",
+   "minutes": 87,
+   "stream": "https://archive.org/download/The_Pied_Piper_of_Hamelin/pied.mp4",
+   "thumb": "https://archive.org/services/img/The_Pied_Piper_of_Hamelin",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "TheStranger_0",
+   "title": "The Stranger",
+   "year": 1946,
+   "genre": "جريمة",
+   "minutes": 91,
+   "stream": "https://archive.org/download/TheStranger_0/The_Stranger.mp4",
+   "thumb": "https://archive.org/services/img/TheStranger_0",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "mclintok_widescreen",
+   "title": "McLintock!",
+   "year": 1963,
+   "genre": "غربي",
+   "minutes": 126,
+   "stream": "https://archive.org/download/mclintok_widescreen/McLintock_512kb.mp4",
+   "thumb": "https://archive.org/services/img/mclintok_widescreen",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "my_favorite_brunette",
+   "title": "My Favorite Brunette",
+   "year": 1947,
+   "genre": "كوميدي",
+   "minutes": 86,
+   "stream": "https://archive.org/download/my_favorite_brunette/my_favorite_brunette.mp4",
+   "thumb": "https://archive.org/services/img/my_favorite_brunette",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "gullivers_travels1939",
+   "title": "Gulliver's Travels",
+   "year": 1939,
+   "genre": "رسوم متحركة",
+   "minutes": 72,
+   "stream": "https://archive.org/download/gullivers_travels1939/gullivers_travels1939.mp4",
+   "thumb": "https://archive.org/services/img/gullivers_travels1939",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "ThePhantomoftheOpera",
+   "title": "The Phantom of the Opera",
+   "year": 1925,
+   "genre": "رعب",
+   "minutes": 106,
+   "stream": "https://archive.org/download/ThePhantomoftheOpera/Phantom_of_the_Opera_512kb.mp4",
+   "thumb": "https://archive.org/services/img/ThePhantomoftheOpera",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "lost_world",
+   "title": "The Lost World",
+   "year": 1925,
+   "genre": "خيال علمي",
+   "minutes": 68,
+   "stream": "https://archive.org/download/lost_world/lost_world.mp4",
+   "thumb": "https://archive.org/services/img/lost_world",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "royal_wedding",
+   "title": "Royal Wedding",
+   "year": 1951,
+   "genre": "موسيقي",
+   "minutes": 91,
+   "stream": "https://archive.org/download/royal_wedding/royal_wedding.mp4",
+   "thumb": "https://archive.org/services/img/royal_wedding",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "ScarletStreet",
+   "title": "Scarlet Street",
+   "year": 1945,
+   "genre": "جريمة",
+   "minutes": 101,
+   "stream": "https://archive.org/download/ScarletStreet/Scarlet_Street.mp4",
+   "thumb": "https://archive.org/services/img/ScarletStreet",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "TheFlyingDeuces",
+   "title": "The Flying Deuces",
+   "year": 1939,
+   "genre": "كوميدي",
+   "minutes": 67,
+   "stream": "https://archive.org/download/TheFlyingDeuces/The_Flying_Deuces.mp4",
+   "thumb": "https://archive.org/services/img/TheFlyingDeuces",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "meet_john_doe",
+   "title": "Meet John Doe",
+   "year": 1941,
+   "genre": "دراما",
+   "minutes": 122,
+   "stream": "https://archive.org/download/meet_john_doe/meet_john_doe.mp4",
+   "thumb": "https://archive.org/services/img/meet_john_doe",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "little_princess",
+   "title": "Little Princess, The",
+   "year": 1939,
+   "genre": "عائلي",
+   "minutes": 92,
+   "stream": "https://archive.org/download/little_princess/little_princess.mp4",
+   "thumb": "https://archive.org/services/img/little_princess",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "Cyrano_DeBergerac",
+   "title": "Cyrano De Bergerac",
+   "year": 1950,
+   "genre": "دراما",
+   "minutes": 112,
+   "stream": "https://archive.org/download/Cyrano_DeBergerac/Cyrano_De_Bergerac.mp4",
+   "thumb": "https://archive.org/services/img/Cyrano_DeBergerac",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "CarnivalofSouls",
+   "title": "Carnival of Souls",
+   "year": 1962,
+   "genre": "رعب",
+   "minutes": 82,
+   "stream": "https://archive.org/download/CarnivalofSouls/CarnivalOfSouls.mp4",
+   "thumb": "https://archive.org/services/img/CarnivalofSouls",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "BattleshipPotemkin",
+   "title": "Bronenosets Potyomkin (Battleship Potemkin)",
+   "year": 1925,
+   "genre": "تاريخي",
+   "minutes": 73,
+   "stream": "https://archive.org/download/BattleshipPotemkin/Battleship_Potemkin_512kb.mp4",
+   "thumb": "https://archive.org/services/img/BattleshipPotemkin",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "secret_weapon",
+   "title": "Sherlock Holmes and the Secret Weapon",
+   "year": 1943,
+   "genre": "غموض",
+   "minutes": 67,
+   "stream": "https://archive.org/download/secret_weapon/sherlock_holmes_and_the_secret_weapon.mp4",
+   "thumb": "https://archive.org/services/img/secret_weapon",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "Nosferatu_most_complete_version_93_mins.",
+   "title": "Nosferatu, eine Symphonie des Grauens (A Symphony of Horror)",
+   "year": 1922,
+   "genre": "رعب",
+   "minutes": 93,
+   "stream": "https://archive.org/download/Nosferatu_most_complete_version_93_mins./Nosferatu_1922_Symphony_of_Horror_512kb.mp4",
+   "thumb": "https://archive.org/services/img/Nosferatu_most_complete_version_93_mins.",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "mr_robinson_crusoe",
+   "title": "Mr. Robinson Crusoe",
+   "year": 1932,
+   "genre": "مغامرة",
+   "minutes": 70,
+   "stream": "https://archive.org/download/mr_robinson_crusoe/video.mp4",
+   "thumb": "https://archive.org/services/img/mr_robinson_crusoe",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "penny_serenade",
+   "title": "Penny Serenade",
+   "year": 1941,
+   "genre": "دراما",
+   "minutes": 119,
+   "stream": "https://archive.org/download/penny_serenade/penny_serenade.mp4",
+   "thumb": "https://archive.org/services/img/penny_serenade",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "Hitchcock_Secret_Agent",
+   "title": "Secret Agent",
+   "year": 1936,
+   "genre": "تشويق",
+   "minutes": 85,
+   "stream": "https://archive.org/download/Hitchcock_Secret_Agent/Secret_Agent_512kb.mp4",
+   "thumb": "https://archive.org/services/img/Hitchcock_Secret_Agent",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "Detour",
+   "title": "Detour",
+   "year": 1945,
+   "genre": "جريمة",
+   "minutes": 67,
+   "stream": "https://archive.org/download/Detour/Detour.mp4",
+   "thumb": "https://archive.org/services/img/Detour",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "AfricaScreams",
+   "title": "Africa Screams",
+   "year": 1949,
+   "genre": "كوميدي",
+   "minutes": 78,
+   "stream": "https://archive.org/download/AfricaScreams/Africa_Screams.mp4",
+   "thumb": "https://archive.org/services/img/AfricaScreams",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "CaptainKidd_",
+   "title": "Captain Kidd",
+   "year": 1945,
+   "genre": "مغامرة",
+   "minutes": 88,
+   "stream": "https://archive.org/download/CaptainKidd_/CaptainKidd.mp4",
+   "thumb": "https://archive.org/services/img/CaptainKidd_",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "markofzorro-1920",
+   "title": "Mark of Zorro",
+   "year": 1920,
+   "genre": "مغامرة",
+   "minutes": 74,
+   "stream": "https://archive.org/download/markofzorro-1920/markofzorro.mp4",
+   "thumb": "https://archive.org/services/img/markofzorro-1920",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "AtWarWithTheArmy",
+   "title": "At War with the Army",
+   "year": 1950,
+   "genre": "كوميدي",
+   "minutes": 90,
+   "stream": "https://archive.org/download/AtWarWithTheArmy/AtWarWithTheArmy.mp4",
+   "thumb": "https://archive.org/services/img/AtWarWithTheArmy",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "Kilimanjaro",
+   "title": "The Snows of Kilimanjaro",
+   "year": 1952,
+   "genre": "دراما",
+   "minutes": 113,
+   "stream": "https://archive.org/download/Kilimanjaro/The_Snows_of_Kilimanjaro.mp4",
+   "thumb": "https://archive.org/services/img/Kilimanjaro",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "charlie_chaplin_film_fest",
+   "title": "Charlie Chaplin Festival",
+   "year": 1938,
+   "genre": "كوميدي",
+   "minutes": 77,
+   "stream": "https://archive.org/download/charlie_chaplin_film_fest/charlie_chaplin_film_fest.mp4",
+   "thumb": "https://archive.org/services/img/charlie_chaplin_film_fest",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "tarzans_revenge",
+   "title": "Tarzan's Revenge",
+   "year": 1938,
+   "genre": "مغامرة",
+   "minutes": 70,
+   "stream": "https://archive.org/download/tarzans_revenge/tarzans_revenge.mp4",
+   "thumb": "https://archive.org/services/img/tarzans_revenge",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "Killers_from_space",
+   "title": "Killers From Space",
+   "year": 1954,
+   "genre": "خيال علمي",
+   "minutes": 70,
+   "stream": "https://archive.org/download/Killers_from_space/Killers_from_space.mp4",
+   "thumb": "https://archive.org/services/img/Killers_from_space",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  },
+  {
+   "id": "teenagers_from_outerspace",
+   "title": "Teenagers from Outer Space",
+   "year": 1959,
+   "genre": "خيال علمي",
+   "minutes": 85,
+   "stream": "https://archive.org/download/teenagers_from_outerspace/Teenagers_from_Outer_Space_512kb.mp4",
+   "thumb": "https://archive.org/services/img/teenagers_from_outerspace",
+   "source": "أرشيف الإنترنت · ملكية عامة"
+  }
+ ],
+ "open_movies": [
+  {
+   "id": "BigBuckBunny_124",
+   "title": "Big Buck Bunny",
+   "subtitle": "الأرنب الكبير",
+   "year": null,
+   "genre": "رسوم متحركة",
+   "minutes": 9,
+   "stream": "https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
+   "thumb": "https://archive.org/services/img/BigBuckBunny_124",
+   "source": "Blender Foundation · CC BY"
+  },
+  {
+   "id": "ElephantsDream",
+   "title": "Elephants Dream",
+   "subtitle": "حلم الفيلة",
+   "year": 2006,
+   "genre": "خيال علمي",
+   "minutes": 10,
+   "stream": "https://archive.org/download/ElephantsDream/ed_1024.mp4",
+   "thumb": "https://archive.org/services/img/ElephantsDream",
+   "source": "Blender Foundation · CC BY"
+  },
+  {
+   "id": "Sintel",
+   "title": "Sintel",
+   "subtitle": "سينتل",
+   "year": 2010,
+   "genre": "مغامرة",
+   "minutes": 14,
+   "stream": "https://archive.org/download/Sintel/sintel-2048-surround_512kb.mp4",
+   "thumb": "https://archive.org/services/img/Sintel",
+   "source": "Blender Foundation · CC BY"
+  },
+  {
+   "id": "Tears-of-Steel",
+   "title": "Tears of Steel",
+   "subtitle": "دموع الفولاذ",
+   "year": 2012,
+   "genre": "خيال علمي",
+   "minutes": 12,
+   "stream": "https://archive.org/download/Tears-of-Steel/tears_of_steel_720p.mp4",
+   "thumb": "https://archive.org/services/img/Tears-of-Steel",
+   "source": "Blender Foundation · CC BY"
+  },
+  {
+   "id": "CosmosLaundromatFirstCycle",
+   "title": "Cosmos Laundromat: First Cycle",
+   "subtitle": "مغسلة الكون",
+   "year": 2015,
+   "genre": "فانتازيا",
+   "minutes": 12,
+   "stream": "https://archive.org/download/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20%281080p%29.mp4",
+   "thumb": "https://archive.org/services/img/CosmosLaundromatFirstCycle",
+   "source": "Blender Foundation · CC BY"
+  },
+  {
+   "id": "spring_blenderopenmovie",
+   "title": "Spring - Blender Open Movie",
+   "subtitle": "الربيع",
+   "year": null,
+   "genre": "فانتازيا",
+   "minutes": 7,
+   "stream": "https://archive.org/download/spring_blenderopenmovie/Spring%20-%20Blender%20Open%20Movie%20-%20YouTube.mp4",
+   "thumb": "https://archive.org/services/img/spring_blenderopenmovie",
+   "source": "Blender Foundation · CC BY"
+  },
+  {
+   "id": "agent327operationbarbershop",
+   "title": "Agent 327 - Operation Barbershop",
+   "subtitle": "العميل 327",
+   "year": 2017,
+   "genre": "أكشن",
+   "minutes": 3,
+   "stream": "https://archive.org/download/agent327operationbarbershop/agent327-1080.ia.mp4",
+   "thumb": "https://archive.org/services/img/agent327operationbarbershop",
+   "source": "Blender Foundation · CC BY"
+  },
+  {
+   "id": "Caminandes1LlamaDrama",
+   "title": "Caminandes 1: Llama Drama",
+   "subtitle": "كاميناندس ١",
+   "year": null,
+   "genre": "كوميدي",
+   "minutes": 1,
+   "stream": "https://archive.org/download/Caminandes1LlamaDrama/01_llama_drama_1080p.mp4",
+   "thumb": "https://archive.org/services/img/Caminandes1LlamaDrama",
+   "source": "Blender Foundation · CC BY"
+  },
+  {
+   "id": "Caminandes2GranDillama",
+   "title": "Caminandes 2: Gran Dillama",
+   "subtitle": "كاميناندس ٢",
+   "year": null,
+   "genre": "كوميدي",
+   "minutes": 2,
+   "stream": "https://archive.org/download/Caminandes2GranDillama/02_gran_dillama_1080p.mp4",
+   "thumb": "https://archive.org/services/img/Caminandes2GranDillama",
+   "source": "Blender Foundation · CC BY"
+  }
+ ],
+ "series": [
+  {
+   "id": "Bonanza_pd",
+   "title": "Bonanza public domain episodes",
+   "subtitle": "بونانزا",
+   "year": null,
+   "genre": "غربي",
+   "thumb": "https://archive.org/services/img/Bonanza_pd",
+   "episodes": [
+    {
+     "title": "Bonanza s01e19",
+     "stream": "https://archive.org/download/Bonanza_pd/Bonanza%20s01e19.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s01e20",
+     "stream": "https://archive.org/download/Bonanza_pd/Bonanza%20s01e20.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s01e21",
+     "stream": "https://archive.org/download/Bonanza_pd/Bonanza%20s01e21.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s01e22",
+     "stream": "https://archive.org/download/Bonanza_pd/Bonanza%20s01e22.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s01e23",
+     "stream": "https://archive.org/download/Bonanza_pd/Bonanza%20s01e23.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s01e24",
+     "stream": "https://archive.org/download/Bonanza_pd/Bonanza%20s01e24.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s01e25",
+     "stream": "https://archive.org/download/Bonanza_pd/Bonanza%20s01e25.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s01e26",
+     "stream": "https://archive.org/download/Bonanza_pd/Bonanza%20s01e26.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s01e27",
+     "stream": "https://archive.org/download/Bonanza_pd/Bonanza%20s01e27.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s01e28",
+     "stream": "https://archive.org/download/Bonanza_pd/Bonanza%20s01e28.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s01e29",
+     "stream": "https://archive.org/download/Bonanza_pd/Bonanza%20s01e29.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s01e30",
+     "stream": "https://archive.org/download/Bonanza_pd/Bonanza%20s01e30.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s01e31",
+     "stream": "https://archive.org/download/Bonanza_pd/Bonanza%20s01e31.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s01e32",
+     "stream": "https://archive.org/download/Bonanza_pd/Bonanza%20s01e32.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s02e02",
+     "stream": "https://archive.org/download/Bonanza_pd/BonanzaS02e02.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s02e03",
+     "stream": "https://archive.org/download/Bonanza_pd/BonanzaS02e03.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s02e04",
+     "stream": "https://archive.org/download/Bonanza_pd/BonanzaS02e04.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s02e05",
+     "stream": "https://archive.org/download/Bonanza_pd/BonanzaS02e05.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s02e06",
+     "stream": "https://archive.org/download/Bonanza_pd/BonanzaS02e06.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s02e07",
+     "stream": "https://archive.org/download/Bonanza_pd/BonanzaS02e07.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s02e08",
+     "stream": "https://archive.org/download/Bonanza_pd/BonanzaS02e08.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s02e09",
+     "stream": "https://archive.org/download/Bonanza_pd/BonanzaS02e09.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s02e10",
+     "stream": "https://archive.org/download/Bonanza_pd/BonanzaS02e10.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s02e11",
+     "stream": "https://archive.org/download/Bonanza_pd/BonanzaS02e11.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s02e12",
+     "stream": "https://archive.org/download/Bonanza_pd/BonanzaS02e12.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s02e13",
+     "stream": "https://archive.org/download/Bonanza_pd/BonanzaS02e13.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s02e14",
+     "stream": "https://archive.org/download/Bonanza_pd/BonanzaS02e14.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s02e15",
+     "stream": "https://archive.org/download/Bonanza_pd/BonanzaS02e15.mp4",
+     "minutes": 48
+    },
+    {
+     "title": "Bonanza s02e16",
+     "stream": "https://archive.org/download/Bonanza_pd/BonanzaS02e16.mp4",
+     "minutes": 49
+    },
+    {
+     "title": "Bonanza s02e17",
+     "stream": "https://archive.org/download/Bonanza_pd/BonanzaS02e17.mp4",
+     "minutes": 49
+    }
+   ]
+  },
+  {
+   "id": "SherlockHolmes1954",
+   "title": "The Adventures of Sherlock Holmes (1954)",
+   "subtitle": "مغامرات شيرلوك هولمز",
+   "year": null,
+   "genre": "غموض",
+   "thumb": "https://archive.org/services/img/SherlockHolmes1954",
+   "episodes": [
+    {
+     "title": "Sherlock Holmes 01 The Case of the Cunningham Heritage",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2001%20The%20Case%20of%20the%20Cunningham%20Heritage.mp4",
+     "minutes": 27
+    },
+    {
+     "title": "Sherlock Holmes 02 The Case Of Lady Beryl",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2002%20The%20Case%20Of%20Lady%20Beryl.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 03 The Case of the Pennsylvania Gun",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2003%20The%20Case%20of%20the%20Pennsylvania%20Gun.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 04 The Case Of The Texas Cowgirl",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2004%20The%20Case%20Of%20The%20Texas%20Cowgirl.mp4",
+     "minutes": 27
+    },
+    {
+     "title": "Sherlock Holmes 05 The Case Of The Belligerent Ghost",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2005%20The%20Case%20Of%20The%20Belligerent%20Ghost.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 06 The Case Of The Shy Ballerina",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2006%20The%20Case%20Of%20The%20Shy%20Ballerina.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 07 The Case Of The Winthrop Legend",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2007%20The%20Case%20Of%20The%20Winthrop%20Legend.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 08 The Case Of The Blind Man's Bluff",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2008%20The%20Case%20Of%20The%20Blind%20Man%27s%20Bluff.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 09 The Case Of Harry Crocker",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2009%20The%20Case%20Of%20Harry%20Crocker.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 10 Mother Hubbard",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2010%20Mother%20Hubbard.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 11 Red Headed League",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2011%20Red%20Headed%20League.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 12 Shoeless Engineer",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2012%20Shoeless%20Engineer.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 13 Split Ticket",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2013%20Split%20Ticket.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 14 French Interpreter",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2014%20French%20Interpreter.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 15 Singing Violin",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2015%20Singing%20Violin.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 16 The Case Of The Greystone Insription",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2016%20The%20Case%20Of%20The%20Greystone%20Insription.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 17 The Case Of The Laughing Mummy",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2017%20The%20Case%20Of%20The%20Laughing%20Mummy.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 18 The Case Of The Thistle Killer",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2018%20The%20Case%20Of%20The%20Thistle%20Killer.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 19 The Case Of The Vanished Detective",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2019%20The%20Case%20Of%20The%20Vanished%20Detective.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 20 The Case Of The Careless Suffragette",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2020%20The%20Case%20Of%20The%20Careless%20Suffragette.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 21 The Case Of The Reluctant Carpenter",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2021%20The%20Case%20Of%20The%20Reluctant%20Carpenter.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 22 The Case Of The Deadly Prophecy",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2022%20The%20Case%20Of%20The%20Deadly%20Prophecy.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 23 The Case Of The Deadly Pudding",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2023%20The%20Case%20Of%20The%20Deadly%20Pudding.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 24 The Case Of The Night Train Riddle",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2024%20The%20Case%20Of%20The%20Night%20Train%20Riddle.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 25 The Case Of The Violent Suitor",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2025%20The%20Case%20Of%20The%20Violent%20Suitor.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 26 The Case Of The Baker Street Nursemaids",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2026%20The%20Case%20Of%20The%20Baker%20Street%20Nursemaids.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 27 The Case Of The Perfect Husband",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2027%20The%20Case%20Of%20The%20Perfect%20Husband.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 28 The Case Of The Jolly Hangman",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2028%20The%20Case%20Of%20The%20Jolly%20Hangman.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 29 The Case Of The Impostor Mystery",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2029%20The%20Case%20Of%20The%20Impostor%20Mystery.mp4",
+     "minutes": 26
+    },
+    {
+     "title": "Sherlock Holmes 30 The Case Of The Eiffel Tower",
+     "stream": "https://archive.org/download/SherlockHolmes1954/Sherlock%20Holmes%2030%20The%20Case%20Of%20The%20Eiffel%20Tower.mp4",
+     "minutes": 26
+    }
+   ]
+  },
+  {
+   "id": "theloneranger_201705",
+   "title": "The Lone Ranger TV Show",
+   "subtitle": "الفارس الوحيد",
+   "year": 1949,
+   "genre": "غربي",
+   "thumb": "https://archive.org/services/img/theloneranger_201705",
+   "episodes": [
+    {
+     "title": "s01e01 EntertheLoneRanger",
+     "stream": "https://archive.org/download/theloneranger_201705/s01e01_EntertheLoneRanger.mp4",
+     "minutes": 25
+    },
+    {
+     "title": "s01e02 TheLoneRangerFightsOn",
+     "stream": "https://archive.org/download/theloneranger_201705/s01e02_TheLoneRangerFightsOn.mp4",
+     "minutes": 24
+    },
+    {
+     "title": "s01e03TheLoneRangersTriumph",
+     "stream": "https://archive.org/download/theloneranger_201705/s01e03TheLoneRangersTriumph.mp4",
+     "minutes": 24
+    },
+    {
+     "title": "s01e04 TheLegionofOldTimers",
+     "stream": "https://archive.org/download/theloneranger_201705/s01e04_TheLegionofOldTimers.mp4",
+     "minutes": 22
+    },
+    {
+     "title": "s01e05 RustlersHideout",
+     "stream": "https://archive.org/download/theloneranger_201705/s01e05_RustlersHideout.mp4",
+     "minutes": 22
+    },
+    {
+     "title": "s01e06 Warhorse",
+     "stream": "https://archive.org/download/theloneranger_201705/s01e06_Warhorse.mp4",
+     "minutes": 22
+    },
+    {
+     "title": "s01e07 PeteandPedro",
+     "stream": "https://archive.org/download/theloneranger_201705/s01e07_PeteandPedro.mp4",
+     "minutes": 21
+    },
+    {
+     "title": "s01e08 TheRenegades",
+     "stream": "https://archive.org/download/theloneranger_201705/s01e08_TheRenegades.mp4",
+     "minutes": 22
+    },
+    {
+     "title": "s01e09 TheTenderfeet",
+     "stream": "https://archive.org/download/theloneranger_201705/s01e09_TheTenderfeet.mp4",
+     "minutes": 21
+    },
+    {
+     "title": "s01e10 Highheels",
+     "stream": "https://archive.org/download/theloneranger_201705/s01e10_Highheels.mp4",
+     "minutes": 21
+    },
+    {
+     "title": "s01e11 SixgunsLegacy",
+     "stream": "https://archive.org/download/theloneranger_201705/s01e11_SixgunsLegacy.mp4",
+     "minutes": 21
+    },
+    {
+     "title": "s01e12 Returnoftheconvict",
+     "stream": "https://archive.org/download/theloneranger_201705/s01e12_Returnoftheconvict.mp4",
+     "minutes": 21
+    },
+    {
+     "title": "s01e13 finderskeepers",
+     "stream": "https://archive.org/download/theloneranger_201705/s01e13_finderskeepers.mp4",
+     "minutes": 21
+    },
+    {
+     "title": "s01e14 themaskedrider",
+     "stream": "https://archive.org/download/theloneranger_201705/s01e14_themaskedrider.mp4",
+     "minutes": 21
+    },
+    {
+     "title": "s01e15 OldJoesSister",
+     "stream": "https://archive.org/download/theloneranger_201705/s01e15_OldJoesSister.mp4",
+     "minutes": 21
+    },
+    {
+     "title": "s01e16 CanonBallMckay",
+     "stream": "https://archive.org/download/theloneranger_201705/s01e16_CanonBallMckay.mp4",
+     "minutes": 21
+    }
+   ]
+  },
+  {
+   "id": "The_Beverly_Hillbillies",
+   "title": "The Beverly Hillbillies TV Show",
+   "subtitle": "عائلة بيفرلي هيلبيليز",
+   "year": 1962,
+   "genre": "كوميدي",
+   "thumb": "https://archive.org/services/img/The_Beverly_Hillbillies",
+   "episodes": [
+    {
+     "title": "GRANNYS GARDEN",
+     "stream": "https://archive.org/download/The_Beverly_Hillbillies/GRANNYS_GARDEN.mp4",
+     "minutes": 25
+    },
+    {
+     "title": "Getting Settled",
+     "stream": "https://archive.org/download/The_Beverly_Hillbillies/Getting_Settled.mp4",
+     "minutes": 25
+    },
+    {
+     "title": "The Clampets Strike Oil",
+     "stream": "https://archive.org/download/The_Beverly_Hillbillies/The_Clampets_Strike_Oil.mp4",
+     "minutes": 25
+    }
+   ]
+  }
+ ],
+ "cartoons": [
+  {
+   "id": "superman_fleischer",
+   "title": "Max Fleischer Superman",
+   "subtitle": "سوبرمان (فلايشر)",
+   "year": 1941,
+   "genre": "كرتون كلاسيكي",
+   "thumb": "https://archive.org/services/img/Superman_cartoons",
+   "episodes": [
+    {
+     "title": "Superman Mechanical-Monsters",
+     "stream": "https://archive.org/download/Superman_cartoons/Superman_Mechanical-Monsters.mp4",
+     "minutes": 10
+    },
+    {
+     "title": "The Arctic Giant (1942)",
+     "stream": "https://archive.org/download/Superman_cartoons/The_Arctic_Giant_%281942%29.mp4",
+     "minutes": 8
+    },
+    {
+     "title": "The Bulleteers (1942)",
+     "stream": "https://archive.org/download/Superman_cartoons/The_Bulleteers_%281942%29.mp4",
+     "minutes": 7
+    },
+    {
+     "title": "The Magnetic Telescope (1942)",
+     "stream": "https://archive.org/download/Superman_cartoons/The_Magnetic_Telescope_%281942%29.mp4",
+     "minutes": 7
+    },
+    {
+     "title": "Volcano (1942)",
+     "stream": "https://archive.org/download/Superman_cartoons/Volcano_%281942%29.mp4",
+     "minutes": 7
+    },
+    {
+     "title": "superman-billion dollar limited",
+     "stream": "https://archive.org/download/Superman_cartoons/superman-billion_dollar_limited.mp4",
+     "minutes": 8
+    },
+    {
+     "title": "superman (1941)",
+     "stream": "https://archive.org/download/Superman_cartoons/superman_%281941%29.mp4",
+     "minutes": 10
+    },
+    {
+     "title": "superman electric earthquake",
+     "stream": "https://archive.org/download/Superman_cartoons/superman_electric_earthquake.mp4",
+     "minutes": 8
+    },
+    {
+     "title": "Superman: The Mechanical Monsters",
+     "stream": "https://archive.org/download/superman_the_mechanical_monsters/superman_the_mechanical_monsters_512kb.mp4",
+     "minutes": 10
+    },
+    {
+     "title": "Superman: Electric Earthquake",
+     "stream": "https://archive.org/download/superman_electric_earthquake/superman_electric_earthquake_512kb.mp4",
+     "minutes": 8
+    },
+    {
+     "title": "Superman: Eleventh Hour",
+     "stream": "https://archive.org/download/superman_eleventh_hour/superman_eleventh_hour_512kb.mp4",
+     "minutes": 7
+    }
+   ]
+  },
+  {
+   "id": "popeye",
+   "title": "Popeye the Sailor",
+   "subtitle": "باباي البحّار",
+   "year": null,
+   "genre": "كرتون كلاسيكي",
+   "thumb": "https://archive.org/services/img/popeye_patriotic_popeye",
+   "episodes": [
+    {
+     "title": "Patriotic Popeye",
+     "stream": "https://archive.org/download/popeye_patriotic_popeye/popeye_patriotic_popeye_512kb.mp4",
+     "minutes": 6
+    },
+    {
+     "title": "Private Eye Popeye",
+     "stream": "https://archive.org/download/popeye_private_eye_popeye/popeye_private_eye_popeye_512kb.mp4",
+     "minutes": 6
+    },
+    {
+     "title": "Shuteye Popeye",
+     "stream": "https://archive.org/download/popeye_shuteye_popeye/popeye_shuteye_popeye_512kb.mp4",
+     "minutes": 6
+    },
+    {
+     "title": "Popeye: I Don't Scare",
+     "stream": "https://archive.org/download/popeye_i_dont_scare/popeye_i_dont_scare_512kb.mp4",
+     "minutes": 6
+    },
+    {
+     "title": "Popeye: Taxi-Turvy",
+     "stream": "https://archive.org/download/popeye_taxi-turvey/popeye_taxi-turvey_512kb.mp4",
+     "minutes": 6
+    },
+    {
+     "title": "Popeye: Fright To The Finish",
+     "stream": "https://archive.org/download/popeye_fright_to_the_finish/popeye_fright_to_the_finish_512kb.mp4",
+     "minutes": 6
+    },
+    {
+     "title": "Popeye The Sailor Man: Ancient Fistory",
+     "stream": "https://archive.org/download/popeye_the_sailor_ancient_fantasy/popeye_the_sailor_ancient_fantasy_512kb.mp4",
+     "minutes": 6
+    },
+    {
+     "title": "Popeye The Sailor: Big Bad Sinbad",
+     "stream": "https://archive.org/download/popeye_big_bad_sinbad/popeye_big_bad_sinbad_512kb.mp4",
+     "minutes": 5
+    }
+   ]
+  },
+  {
+   "id": "bettyboop",
+   "title": "Betty Boop",
+   "subtitle": "بيتي بوب",
+   "year": null,
+   "genre": "كرتون كلاسيكي",
+   "thumb": "https://archive.org/services/img/BettyBoopCartoons",
+   "episodes": [
+    {
+     "title": "Betty Boop Cartoons",
+     "stream": "https://archive.org/download/BettyBoopCartoons/Betty_Boop_A_Song_a_Day_1936_512kb.mp4",
+     "minutes": 6
+    },
+    {
+     "title": "Betty Boop: Snow White",
+     "stream": "https://archive.org/download/bb_snow_white/bb_snow_white_512kb.mp4",
+     "minutes": 7
+    },
+    {
+     "title": "Betty Boop: Minnie The Moocher",
+     "stream": "https://archive.org/download/bb_minnie_the_moocher/bb_minnie_the_moocher_512kb.mp4",
+     "minutes": 7
+    },
+    {
+     "title": "Betty Boop And Grampy",
+     "stream": "https://archive.org/download/bb_and_grampy/bb_and_grampy_512kb.mp4",
+     "minutes": 6
+    },
+    {
+     "title": "Betty Boop: Bamboo Isle",
+     "stream": "https://archive.org/download/bb_bamboo_isle/bb_bamboo_isle_512kb.mp4",
+     "minutes": 8
+    },
+    {
+     "title": "Betty Boop: I'll Be Glad When You're Dead, You Rascal You",
+     "stream": "https://archive.org/download/bb_ill_be_glad_when_youre_dead/bb_ill_be_glad_when_youre_dead_512kb.mp4",
+     "minutes": 7
+    },
+    {
+     "title": "Betty Boop And The Little King",
+     "stream": "https://archive.org/download/bb_and_the_little_king/bb_and_the_little_king_512kb.mp4",
+     "minutes": 6
+    },
+    {
+     "title": "Betty Boop: Be Human",
+     "stream": "https://archive.org/download/bb_be_human/bb_be_human_512kb.mp4",
+     "minutes": 6
+    },
+    {
+     "title": "Betty Boop for President",
+     "stream": "https://archive.org/download/Betty_Boop_for_President_1932/Betty_Boop_for_President_1932_512kb.mp4",
+     "minutes": 6
+    },
+    {
+     "title": "Betty Boop: Betty in Blunderland",
+     "stream": "https://archive.org/download/bb_betty_in_blunderland/bb_betty_in_blunderland_512kb.mp4",
+     "minutes": 6
+    },
+    {
+     "title": "Betty Boop: The Old Man Of The Mountain",
+     "stream": "https://archive.org/download/bb_old_man_of_the_mountain/bb_old_man_of_the_mountain_512kb.mp4",
+     "minutes": 6
+    },
+    {
+     "title": "Betty Boop: Chess Nuts",
+     "stream": "https://archive.org/download/bb_chess_nuts/bb_chess_nuts_512kb.mp4",
+     "minutes": 6
+    },
+    {
+     "title": "Betty Boop: Happy You And Merry Me",
+     "stream": "https://archive.org/download/bb_happy_you/bb_happy_you_512kb.mp4",
+     "minutes": 6
+    },
+    {
+     "title": "Betty Boop: Stop That Noise",
+     "stream": "https://archive.org/download/bb_stop_that_noise/bb_stop_that_noise_512kb.mp4",
+     "minutes": 9
+    }
+   ]
+  },
+  {
+   "id": "casper",
+   "title": "Noveltoons & Casper",
+   "subtitle": "كاسبر وأصدقاؤه",
+   "year": null,
+   "genre": "كرتون كلاسيكي",
+   "thumb": "https://archive.org/services/img/noveltoon_casper_tfg_theres_good_boos_tonight",
+   "episodes": [
+    {
+     "title": "Noveltoon: Caspar The Friendly Ghost in There's Good Boos Tonight",
+     "stream": "https://archive.org/download/noveltoon_casper_tfg_theres_good_boos_tonight/noveltoon_casper_tfg_theres_good_boos_tonight_512kb.mp4",
+     "minutes": 8
+    },
+    {
+     "title": "Noveltoon: Naughty But Mice",
+     "stream": "https://archive.org/download/noveltoon_naughty_but_nice/noveltoon_naughty_but_nice_512kb.mp4",
+     "minutes": 6
+    },
+    {
+     "title": "Noveltoon: The Stupidstitious Cat",
+     "stream": "https://archive.org/download/noveltoon_the_stupidstitious_cat/noveltoon_the_stupidstitious_cat_512kb.mp4",
+     "minutes": 6
+    }
+   ]
+  }
+ ],
+ "test_streams": [
+  {
+   "id": "apple_bipbop_adv",
+   "title": "Apple HLS (fMP4) — بث تجريبي",
+   "stream": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8"
+  },
+  {
+   "id": "apple_bipbop_169",
+   "title": "Apple BipBop 16:9 — بث تجريبي",
+   "stream": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8"
+  },
+  {
+   "id": "mux_test",
+   "title": "Mux HLS Test — بث تجريبي",
+   "stream": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+  }
+ ]
+}

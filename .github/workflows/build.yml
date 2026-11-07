@@ -1,0 +1,85 @@
+name: build-ipa
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  ipa:
+    runs-on: macos-15
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tools
+        run: |
+          xcodebuild -version
+          brew install xcodegen
+      - name: Generate project
+        run: xcodegen generate
+      - name: Archive (unsigned)
+        run: |
+          set -o pipefail
+          xcodebuild -project MadarTV.xcodeproj -scheme MadarTV -configuration Release \
+            -sdk iphoneos -destination 'generic/platform=iOS' \
+            -archivePath build/MadarTV.xcarchive archive \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
+            2>&1 | tee build.log | grep -E "error:|warning: unre|ARCHIVE SUCCEEDED|ARCHIVE FAILED|BUILD FAILED" || true
+          test -d build/MadarTV.xcarchive/Products/Applications/MadarTV.app
+          grep -q "ARCHIVE SUCCEEDED" build.log
+      - name: Package ipa
+        run: |
+          mkdir -p out/Payload
+          cp -R build/MadarTV.xcarchive/Products/Applications/MadarTV.app out/Payload/
+          cd out && zip -qry MadarTV_unsigned.ipa Payload && ls -la MadarTV_unsigned.ipa
+          unzip -l MadarTV_unsigned.ipa | head -20
+      - name: Upload ipa
+        uses: actions/upload-artifact@v4
+        with:
+          name: MadarTV_unsigned
+          path: out/MadarTV_unsigned.ipa
+          compression-level: 0
+      - name: Upload log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-log
+          path: build.log
+
+  screenshots:
+    runs-on: macos-15
+    timeout-minutes: 40
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - run: brew install xcodegen && xcodegen generate
+      - name: Pick simulator
+        id: sim
+        run: |
+          UDID=$(xcrun simctl list devices available -j | python3 -c "import json,sys;d=json.load(sys.stdin)['devices'];c=[x for k,v in d.items() if 'iOS' in k for x in v if x['name'].startswith('iPhone 16 Pro') or x['name'].startswith('iPhone 15 Pro')] or [x for k,v in d.items() if 'iOS' in k for x in v if x['name'].startswith('iPhone')];print(c[-1]['udid'])")
+          echo "udid=$UDID" >> $GITHUB_OUTPUT
+      - name: Build for simulator
+        run: |
+          set -o pipefail
+          xcodebuild -project MadarTV.xcodeproj -scheme MadarTV -configuration Debug \
+            -destination "id=${{ steps.sim.outputs.udid }}" -derivedDataPath dd build \
+            CODE_SIGNING_ALLOWED=NO 2>&1 | tee sim.log | grep -E "error:|BUILD SUCCEEDED|BUILD FAILED" || true
+          grep -q "BUILD SUCCEEDED" sim.log
+      - name: Shoot
+        run: |
+          U=${{ steps.sim.outputs.udid }}
+          xcrun simctl boot $U || true
+          xcrun simctl bootstatus $U -b
+          xcrun simctl status_bar $U override --time "9:41" --batteryState charged --batteryLevel 100 || true
+          APP=$(find dd/Build/Products -name "MadarTV.app" -maxdepth 3 | head -1)
+          xcrun simctl install $U "$APP"
+          mkdir -p shots
+          for T in 0 1 2 3 4 5; do
+            xcrun simctl terminate $U com.madar.tv || true
+            xcrun simctl launch $U com.madar.tv -startTab $T
+            sleep 14
+            xcrun simctl io $U screenshot shots/tab$T.png
+          done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: screenshots
+          path: shots
